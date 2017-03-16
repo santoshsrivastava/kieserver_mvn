@@ -42,5 +42,6 @@
   <user username="role1" password="<must-be-changed>" roles="role1"/>
 -->
   <role rolename="kie-server"/>
-  <user username="kieuser" password="kieuser" roles="kie-server"/>
+  <role rolename="admin"/>
+  <user username="kieuser" password="kieuser" roles="kie-server,admin"/>
 </tomcat-users>
