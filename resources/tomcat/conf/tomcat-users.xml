@@ -46,4 +46,5 @@
   <role rolename="analyst"/>
   <role rolename="manager"/>
   <user username="kieuser" password="kieuser" roles="kie-server"/>
+  <user username="kieadmin" password="kieadmin" roles="admin"/>
 </tomcat-users>
