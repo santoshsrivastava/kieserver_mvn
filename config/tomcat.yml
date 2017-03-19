@@ -18,7 +18,7 @@
 tomcat:
   version: 8.5.+
   repository_root: "{default.repository.root}/tomcat"
-  context_path: kie-ws
+  context_path: 
   external_configuration_enabled: false
 external_configuration:
   version: 1.+
