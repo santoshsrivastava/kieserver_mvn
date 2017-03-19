@@ -37,6 +37,16 @@
             <Valve className='com.gopivotal.cloudfoundry.tomcat.logging.access.CloudFoundryAccessLoggingValve'
                    pattern='[ACCESS] %{org.apache.catalina.AccessLog.RemoteAddr}r %l %t %D %F %B %S vcap_request_id:%{X-Vcap-Request-Id}i'
                    enabled='${access.logging.enabled}'/>
+
+	<Realm className="org.apache.catalina.realm.LockOutRealm">
+        <!-- This Realm uses the UserDatabase configured in the global JNDI
+             resources under the key "UserDatabase".  Any edits
+             that are performed against this UserDatabase are immediately
+             available for use by the Realm.  -->
+        <Realm className="org.apache.catalina.realm.UserDatabaseRealm"
+               resourceName="UserDatabase"/>
+      </Realm>
+
             <Host name='localhost'
                   failCtxIfServletStartFails='true'>
                 <Listener className='com.gopivotal.cloudfoundry.tomcat.lifecycle.ApplicationStartupFailureDetectingLifecycleListener'/>
