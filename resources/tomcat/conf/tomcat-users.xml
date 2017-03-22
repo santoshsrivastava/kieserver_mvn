@@ -50,5 +50,6 @@
   <role rolename="admin"/>
   <role rolename="kie-server"/>
   <role rolename="manager-gui"/>
-  <user username="kieuser" password="password1" roles="analyst,admin,kie-server,manager-gui"/>
+  <role rolename="rest-all"/>
+  <user username="kieuser" password="password1" roles="analyst,admin,kie-server,manager-gui,rest-all"/>
 </tomcat-users>
