@@ -44,7 +44,7 @@ under the License.
    |
    | Default: ~/.m2/repository
 -->
-  <localRepository>/Users/ddoyle/.m2/kie-repository</localRepository>
+  <localRepository>~/.m2/repository</localRepository>
  
 	<proxies>
 	</proxies>
