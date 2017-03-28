@@ -135,6 +135,20 @@ under the License.
               			      	<updatePolicy>always</updatePolicy>
          			  </snapshots>
 				</repository>
+				<repository>
+                                    <id>bintray-cjd-pov</id>
+                                    <name>bintray</name>
+                                    <url>http://cjd.bintray.com/pov
+               			   <layout>default</layout>
+		                   <releases>
+               			      	<enabled>true</enabled>
+                    			<updatePolicy>always</updatePolicy>
+                   		  </releases>
+                   		  <snapshots>
+               			      	<enabled>true</enabled>
+              			      	<updatePolicy>always</updatePolicy>
+         			  </snapshots>
+				</repository>
   		          </repositories>
      		       <pluginRepositories>
          		   <pluginRepository>
@@ -151,6 +165,14 @@ under the License.
              			   <updatePolicy>never</updatePolicy>
 		             </snapshots>
 		           </pluginRepository>
+                           <pluginRepository>
+                               <snapshots>
+                                   <enabled>false</enabled>
+                               </snapshots>
+                               <id>bintray-cjd-pov</id>
+                               <name>bintray-plugins</name>
+                                   <url>http://cjd.bintray.com/pov</url>
+                           </pluginRepository>
 		       </pluginRepositories>
 		</profile>
 	</profiles>
