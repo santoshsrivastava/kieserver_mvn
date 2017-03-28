@@ -10,7 +10,7 @@
                     </snapshots>
                     <id>bintray-cjd-pov</id>
                     <name>bintray</name>
-                    <url>http://cjd.bintray.com/pov/rules</url>
+                    <url>http://cjd.bintray.com/pov</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -20,7 +20,7 @@
                     </snapshots>
                     <id>bintray-cjd-pov</id>
                     <name>bintray-plugins</name>
-                    <url>http://cjd.bintray.com/pov/rules</url>
+                    <url>http://cjd.bintray.com/pov</url>
                 </pluginRepository>
             </pluginRepositories>
             <id>bintray</id>
