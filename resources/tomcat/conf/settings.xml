@@ -6,7 +6,7 @@
             <repositories>
                 <repository>
                     <snapshots>
-                        <enabled>false</enabled>
+                        <enabled>true</enabled>
                     </snapshots>
                     <id>bintray-cjd-pov</id>
                     <name>bintray</name>
@@ -16,7 +16,7 @@
             <pluginRepositories>
                 <pluginRepository>
                     <snapshots>
-                        <enabled>false</enabled>
+                        <enabled>true</enabled>
                     </snapshots>
                     <id>bintray-cjd-pov</id>
                     <name>bintray-plugins</name>
