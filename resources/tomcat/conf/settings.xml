@@ -18,6 +18,7 @@
                 <pluginRepository>
                     <snapshots>
                         <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
                     </snapshots>
                     <id>bintray-cjd-pov</id>
                     <name>bintray-plugins</name>
