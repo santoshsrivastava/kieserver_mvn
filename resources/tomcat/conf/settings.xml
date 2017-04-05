@@ -39,4 +39,11 @@
     <activeProfiles>
         <activeProfile>bintray</activeProfile>
     </activeProfiles>
+    <servers>
+      <server>
+         <id>bintray-cjd-pov</id>
+         <username>cdecelles</username>
+         <password>${v1}</password>
+      </server>
+    </servers>
 </settings>
