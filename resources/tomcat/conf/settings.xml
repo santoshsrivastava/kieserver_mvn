@@ -43,7 +43,7 @@
       <server>
          <id>bintray-cjd-pov</id>
          <username>cdecelles</username>
-         <password>${env.$MVN_SERVER_KEY}</password>
+         <password>${env.MVN_SERVER_KEY}</password>
       </server>
     </servers>
 </settings>
