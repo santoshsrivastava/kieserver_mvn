@@ -16,4 +16,5 @@
   -->
 
 <Context>
+  <Resource name="jdbc/jbpm" auth="Container" type="javax.sql.DataSource" factory="bitronix.tm.resource.ResourceObjectFactory" uniqueName="jdbc/jbpm"/>
 </Context>
