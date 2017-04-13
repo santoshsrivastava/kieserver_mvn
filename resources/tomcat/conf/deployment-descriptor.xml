@@ -3,7 +3,7 @@
     <audit-persistence-unit/>
     <audit-mode/>
     <persistence-mode/>
-    <runtime-strategy>PCJDER_PROCESS_INSTANCE</runtime-strategy>
+    <runtime-strategy>PER_PROCESS_INSTANCE</runtime-strategy>
     <marshalling-strategies/>
     <event-listeners/>
     <task-event-listeners/>
