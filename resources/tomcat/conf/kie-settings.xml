@@ -8,9 +8,9 @@
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <id>bintray-cjd-pov</id>
-                    <name>bintray</name>
-                    <url>http://cjd.bintray.com/pov</url>
+                    <id>central</id>
+        <name>devopsd-releases</name>
+        <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -18,9 +18,9 @@
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <id>bintray-cjd-pov</id>
-                    <name>bintray-plugins</name>
-                    <url>http://cjd.bintray.com/pov</url>
+                    <id>central</id>
+        <name>devopsd-releases</name>
+        <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
                 </pluginRepository>
             </pluginRepositories>
             <id>bintray</id>
