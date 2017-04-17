@@ -13,9 +13,9 @@
                         <enabled>true</enabled>
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
-                    <id>bintray-cjd-pov</id>
-                    <name>bintray</name>
-                    <url>http://cjd.bintray.com/pov</url>
+                    <id>central</id>
+        <name>devopsd-releases</name>
+        <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -28,9 +28,9 @@
                         <enabled>true</enabled>
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
-                    <id>bintray-cjd-pov</id>
-                    <name>bintray-plugins</name>
-                    <url>http://cjd.bintray.com/pov</url>
+                    <id>central</id>
+        <name>devopsd-releases</name>
+        <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
                 </pluginRepository>
             </pluginRepositories>
             <id>bintray</id>
@@ -41,9 +41,9 @@
     </activeProfiles>
     <servers>
       <server>
-         <id>bintray-cjd-pov</id>
-         <username>cdecelles</username>
-         <password>${env.MVN_SERVER_KEY}</password>
+         <id>central</id>
+         <username>api_eomere</username>
+         <password>S3CRet12!!</password>
       </server>
     </servers>
 </settings>
