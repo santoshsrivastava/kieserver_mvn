@@ -43,7 +43,7 @@
       <server>
          <id>central</id>
          <username>api_eomere</username>
-         <password>${env.MVN_ARTIFACTORY_PASSWORD}</password>
+         <password>S3CRet12!!</password>
       </server>
     </servers>
 </settings>
