@@ -15,7 +15,7 @@
                     </snapshots>
                     <id>central</id>
         <name>devopsd-releases</name>
-        <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-blazeadvisor-local</url>
+        <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -30,7 +30,7 @@
                     </snapshots>
                     <id>central</id>
         <name>devopsd-releases</name>
-        <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-blazeadvisor-local</url>
+        <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
                 </pluginRepository>
             </pluginRepositories>
             <id>bintray</id>
@@ -42,8 +42,8 @@
     <servers>
       <server>
          <id>central</id>
-         <username>kishore</username>
-         <password>Welcom#1</password>
+         <username>api_eomere</username>
+         <password>S3CRet12!!</password>
       </server>
     </servers>
 </settings>
