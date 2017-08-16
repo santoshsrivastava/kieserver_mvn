@@ -13,8 +13,8 @@
                         <enabled>true</enabled>
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
-                    <id>central</id>
-        <name>devopsd-releases</name>
+                    <id>cvs-blazeadvisor-local</id>
+        <name>cvs-blazeadvisor-local</name>
         <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-blazeadvisor-local</url>
                 </repository>
             </repositories>
@@ -28,8 +28,8 @@
                         <enabled>true</enabled>
                         <updatePolicy>always</updatePolicy>
                     </snapshots>
-                    <id>central</id>
-        <name>devopsd-releases</name>
+                    <id>cvs-blazeadvisor-local</id>
+        <name>cvs-blazeadvisor-local</name>
         <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-blazeadvisor-local</url>
                 </pluginRepository>
             </pluginRepositories>
@@ -41,7 +41,7 @@
     </activeProfiles>
     <servers>
       <server>
-         <id>central</id>
+         <id>cvs-blazeadvisor-local</id>
          <username>kishore</username>
          <password>Welcom#1</password>
       </server>
