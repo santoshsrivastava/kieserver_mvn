@@ -43,7 +43,7 @@
       <server>
          <id>cvs-blazeadvisor-local</id>
          <username>kishore</username>
-         <password>Welcom#1</password>
+         <password>${env.MVN_SERVER_KEY}</password>
       </server>
     </servers>
 </settings>
