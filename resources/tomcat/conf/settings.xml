@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings xsi:schemaLocation='http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd'
+          xmlns='http://maven.apache.org/SETTINGS/1.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+     
+    <profiles>
+        <profile>
+            <repositories>
+                <repository>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                    </snapshots>
+                    <id>cvs-eom-ere-releases-local</id>
+                    <name>cvs-eom-ere-releases-local</name>
+                    <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                    </snapshots>
+                    <id>cvs-eom-ere-releases-local</id>
+                    <name>cvs-eom-ere-releases-local</name>
+                    <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <id>cvs-eom-ere-releases-local</id>
+        </profile>
+    </profiles>
+          
+    <activeProfiles>
+        <activeProfile>cvs-eom-ere-releases-local</activeProfile>
+    </activeProfiles>
+    <servers>
+      <server>
+         <id>cvs-eom-ere-releases-local</id>
+         <username>api_eomere</username>
+         <password>${env.MVN_SERVER_KEY}</password>
+      </server>
+    </servers>
+</settings>
