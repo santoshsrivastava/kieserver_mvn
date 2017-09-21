@@ -16,7 +16,7 @@
                     </snapshots>
                     <id>cvs-eom-ere-releases-local</id>
                     <name>cvs-eom-ere-releases-local</name>
-                    <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
+                    <url>https://cicd-artifactoryoss-01.pcf-east.cvshealthcloud.com/artifactory/cvs-eom-ere-releases-local</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -31,7 +31,7 @@
                     </snapshots>
                     <id>cvs-eom-ere-releases-local</id>
                     <name>cvs-eom-ere-releases-local</name>
-                    <url>http://devopsd.cvshealth.com:8082/artifactory/cvs-eom-ere-releases-local</url>
+                    <url>https://cicd-artifactoryoss-01.pcf-east.cvshealthcloud.com/artifactory/cvs-eom-ere-releases-local</url>
                 </pluginRepository>
             </pluginRepositories>
             <id>cvs-eom-ere-releases-local</id>
